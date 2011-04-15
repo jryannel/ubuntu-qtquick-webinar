@@ -9,7 +9,7 @@ int main(int argc, char** argv)
     QDeclarativeView view;
 
     //1{ // push a simple value to qml
-    view.rootContext()->setContextProperty("value", QColor("green"));
+//    view.rootContext()->setContextProperty("value", QColor("green"));
     //1}
 
     //2{ // push a QObject to qml
